@@ -18,8 +18,8 @@ logger = logging.getLogger(__name__)
 
 # ===== KONFIGURASI (GANTI SESUAI KEBUTUHAN) =====
 BOT_TOKEN = "8907964626:AAEzd2HVCXRNDS0PFBB8OSoaxftl-Crmmhg"
-EMAIL_SENDER = "biru4648@gmail.com"
-EMAIL_PASSWORD = "otxd txxo pixl yydy"
+EMAIL_SENDER = "riana901177@gmail.com"
+EMAIL_PASSWORD = "xzsq oxnk zomd hcrp"
 EMAIL_SMTP_SERVER = "smtp.gmail.com"
 EMAIL_SMTP_PORT = 587
 EMAIL_IMAP_SERVER = "imap.gmail.com"
@@ -244,6 +244,16 @@ def main():
     job_queue = app.job_queue
     if job_queue:
         job_queue.run_repeating(check_replies_job, interval=CHECK_INTERVAL, first=5)
+        print("✅ Job pengecekan email dijadwalkan.")
+    else:
+        print("❌ JobQueue tidak tersedia. Pastikan python-telegram-bot versi terbaru (>=20.0).")
+        print("   Install ulang dengan: pip install python-telegram-bot --upgrade")
+    
+    print("✅ Bot running...")
+    app.run_polling()
+
+if __name__ == "__main__":
+    main()rst=5)
         print("✅ Job pengecekan email dijadwalkan.")
     else:
         print("❌ JobQueue tidak tersedia. Pastikan python-telegram-bot versi terbaru (>=20.0).")
