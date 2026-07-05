@@ -18,8 +18,8 @@ logger = logging.getLogger(__name__)
 
 # ===== KONFIGURASI (GANTI SESUAI KEBUTUHAN) =====
 BOT_TOKEN = "8907964626:AAEzd2HVCXRNDS0PFBB8OSoaxftl-Crmmhg"
-EMAIL_SENDER = "dinamarianadina62@gmail.com"
-EMAIL_PASSWORD = "gioy fgfm nagp hpla"
+EMAIL_SENDER = "biru4648@gmail.com"
+EMAIL_PASSWORD = "otxd txxo pixl yydy"
 EMAIL_SMTP_SERVER = "smtp.gmail.com"
 EMAIL_SMTP_PORT = 587
 EMAIL_IMAP_SERVER = "imap.gmail.com"
